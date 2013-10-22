@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Look.destroy_all
+
+Look.create([
+	{url: 'http://www.hdwallpapers3d.com/wp-content/uploads/2013/04/new_york_city_madness_wallpaper_hd-wide.jpg',
+	 url1: 'http://lokeshdhakar.com/projects/lightbox2/img/demopage/image-5.jpg'}
+])

@@ -1,0 +1,10 @@
+<div class="header">Catchframe - Image LookMarking</div>
+
+<% @looks.each do |l| %>
+	<ul>
+		<li><img src=<%=l.url%>/></li>
+		<br />
+		<li><img src=<%=l.url1%>/></li>
+		<li><%= button_to "X", { action: 'destroy', id: l.id }, {method: :delete, data:{confirm:"You Sure?"}} %></li>
+	</ul>
+<% end %>
