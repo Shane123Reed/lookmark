@@ -9,6 +9,10 @@
 Look.destroy_all
 
 Look.create([
-	{url: 'http://www.hdwallpapers3d.com/wp-content/uploads/2013/04/new_york_city_madness_wallpaper_hd-wide.jpg',
-	 url1: 'http://lokeshdhakar.com/projects/lightbox2/img/demopage/image-5.jpg'}
+	{url: 'http://lokeshdhakar.com/projects/lightbox2/img/demopage/image-4.jpg',
+	 url1: 'http://lokeshdhakar.com/projects/lightbox2/img/demopage/image-5.jpg',
+	 url2: 'http://lokeshdhakar.com/projects/lightbox2/img/demopage/image-6.jpg',
+	 url3: 'http://lokeshdhakar.com/projects/lightbox2/img/demopage/image-2.jpg',
+	 url4: 'http://lokeshdhakar.com/projects/lightbox2/img/demopage/image-3.jpg',
+	 url5: 'http://lokeshdhakar.com/projects/lightbox2/img/demopage/image-1.jpg'}
 ])

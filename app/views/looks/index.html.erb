@@ -1,10 +1,14 @@
-<div class="header">Catchframe - Image LookMarking</div>
-
+<div class="header">LookMark</div>
+<div class="bin">
 <% @looks.each do |l| %>
 	<ul>
-		<li><img src=<%=l.url%>/></li>
-		<br />
-		<li><img src=<%=l.url1%>/></li>
+		<li><img src="<%=l.url%>"/></li>
+		<li><img src="<%=l.url1%>"/></li>
+		<li><img src="<%=l.url2%>"/></li>
+		<li><img src="<%=l.url3%>"/></li>
+		<li><img src="<%=l.url4%>"/></li>
+		<li><img src="<%=l.url5%>"/></li>
 		<li><%= button_to "X", { action: 'destroy', id: l.id }, {method: :delete, data:{confirm:"You Sure?"}} %></li>
 	</ul>
 <% end %>
+</div>
